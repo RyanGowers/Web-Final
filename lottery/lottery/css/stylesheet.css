@@ -1,0 +1,25 @@
+h1 {
+  height: 10%;
+  width: 100%;
+  color: white;
+  font-size: 128px;
+}
+
+div.game {
+  height: 90%;
+  width: 100%;
+  color: white;
+  font-size: 64px;
+}
+
+p {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding-top: 55px;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-position: center;
+}

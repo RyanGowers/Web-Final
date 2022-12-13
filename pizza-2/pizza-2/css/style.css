@@ -1,0 +1,257 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  overflow-x: hidden;
+  margin: 0px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(252, 0, 3, 1) 0%,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(42, 236, 255, 1) 100%
+  );
+}
+
+.contactInfo {
+  align-content: center;
+  position: relative;
+  margin-right: 20px;
+  bottom: 20px;
+}
+
+.navBar {
+  background-color: black;
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-auto-flow: column;
+  margin-left: auto;
+}
+
+.navBar li {
+  display: inline-block;
+  font-size: 40px;
+  padding: 0.25em 0.5em;
+  width: fit-content;
+}
+
+.navBar li a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.navBar li a:hover {
+  color: black;
+  background-color: white;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.triangle-right {
+  position: relative;
+  left: 800px;
+  bottom: 35px;
+  width: 0;
+  height: 0;
+  border-top: 200px solid transparent;
+  border-left: 250px solid rgb(201, 255, 74);
+  border-bottom: 200px solid transparent;
+}
+
+.pepperoni {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  position: inherit;
+  right: 230px;
+  bottom: 20px;
+}
+
+.pepperoni2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  position: inherit;
+  right: 200px;
+  top: 0px;
+}
+
+.pepperoni3 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  position: inherit;
+  right: 170px;
+  bottom: 150px;
+}
+
+.pizzaimg {
+  clip-path: polygon(
+    32% 51%,
+    7% 30%,
+    22% 14%,
+    54% 5%,
+    81% 16%,
+    98% 50%,
+    83% 85%,
+    52% 96%,
+    18% 85%,
+    5% 64%
+  );
+  position: relative;
+  left: 1000px;
+  bottom: 650px;
+}
+
+.Welcome {
+  width: 500px;
+  margin: 10px;
+  font-size: 26px;
+}
+
+.story {
+  width: 100vh;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.map {
+  position: inherit;
+  top: 0px;
+  left: 100px;
+}
+
+.restaraunt {
+  position: relative;
+  bottom: 450px;
+  left: 800px;
+}
+
+.contactP {
+  font-size: 2em;
+  width: 700px;
+  text-align: justify;
+}
+
+.pizzaSelect {
+  font-size: 24px;
+}
+
+.Size {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.crust {
+  height: auto;
+}
+
+.crustInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.crustTitle {
+  width: 100%;
+}
+
+.crustSelection {
+  width: 100%;
+}
+
+.centerCrustSelection {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.information {
+  display: grid;
+  height: 10vh;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  height: auto;
+}
+
+.toppings {
+  position: relative;
+  bottom: 15px;
+}
+
+.sauce {
+  margin: 5px 0;
+}
+
+.address {
+  display: grid;
+  height: 6em;
+}
+
+select {
+  margin-top: 5px;
+  width: 149px;
+}
+
+.titles1 {
+  text-align: center;
+}
+
+.titles2 {
+  text-align: center;
+}
+
+.titles3 {
+  text-align: center;
+}
+
+.pizzaSelect {
+  width: 40%;
+}
+
+.customerInfo {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.info {
+  margin: 20px auto;
+  width: 700px;
+}
+
+.infoCenter {
+  width: 100%;
+}
+
+.infoHeader {
+  text-align: center;
+  font-size: 24px;
+}

@@ -1,0 +1,37 @@
+body {
+  padding-top: 55px;
+}
+
+span.superman {
+  background-color: red;
+  color: blue;
+}
+
+div.batman {
+  background-color: black;
+  color: yellow;
+}
+
+div.wonderWoman {
+  background-color: white;
+  color: black;
+  border: 10px dotted blue;
+}
+
+div.marvel {
+  margin: 10px;
+  border: 5px solid red;
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+span.BatmanP {
+  color: white;
+  font-style: bold;
+}
+
+span.Header1 {
+  font-style: bold;
+  font-style: italic;
+  font-size: 150%;
+}

@@ -1,0 +1,60 @@
+/* ---- reset ---- */
+body {
+  background-color: #131316;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100vh);
+  transition: all 1.5s;
+  transition-timing-function: ease-out;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+#img {
+  position: relative;
+  align-content: center;
+  right: 100px;
+}
+
+#about-self {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+#contact-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#reflection {
+  position: relative;
+  left: 200px;
+  height: 200px;
+  width: 50%;
+}

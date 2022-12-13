@@ -1,0 +1,29 @@
+body {
+  padding-top: 55px;
+  background-color: #131316;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul li,
+ul li a {
+  display: inline-block;
+}
+
+.original {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 150%;
+}
+
+ul li a:hover {
+  color: rgb(173, 173, 173);
+  background-color: black;
+}
+
+h2 {
+  text-align: right;
+}

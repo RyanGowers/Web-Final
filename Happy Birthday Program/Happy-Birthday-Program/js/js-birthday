@@ -1,0 +1,11 @@
+function myFunction() {
+    let text;
+    let name = window.prompt("Enter your name: ");
+    let age = window.prompt("Enter your age: ");
+    if (name == null || name == "" || age == null || age == "") {
+        alert("User cancelled prompt");
+    }
+    else {
+        alert("Hello " + name + " you are " + age + " years old!");
+    }
+}

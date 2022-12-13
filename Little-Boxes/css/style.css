@@ -1,0 +1,103 @@
+body {
+  background-color: lightblue;
+}
+
+div.court {
+  background-color: rgb(255, 183, 119);
+  width: 1600px;
+  height: 800px;
+  margin: 100px;
+}
+
+div.third-meter {
+  background-color: rgb(255, 185, 56);
+  position: absolute;
+  left: 600px;
+  width: 600px;
+  height: 800px;
+}
+
+div.net {
+  background-color: black;
+  width: 10px;
+  height: 800px;
+  position: absolute;
+  left: 300px;
+}
+
+div.border {
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+
+div.outer-border {
+  width: 1600px;
+  height: 800px;
+  position: absolute;
+  left: 105px;
+  top: 97px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+}
+
+div.thrid-meter-line {
+  width: 600px;
+  height: 1000px;
+  position: absolute;
+  left: 600px;
+  top: 0px;
+  background-color: transparent;
+  border-style: dashed;
+  border-color: white;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+
+div.ref {
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  left: 855px;
+  top: 0px;
+  background-color: black;
+}
+
+div.refferee {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid rgb(128, 128, 128);
+}
+
+div.volleyball {
+  position: absolute;
+  left: 40px;
+  bottom: 140px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+div.Y {
+  background-color: rgb(66, 66, 255);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 800px;
+  top: 500px;
+  border-radius: 34% 36% 15% 15% / 52% 54% 42% 44%;
+}
